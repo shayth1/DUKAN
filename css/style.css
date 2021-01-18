@@ -9,14 +9,35 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
-
+/* html{
+	direction: rtl;
+} */
+header{
+	direction: rtl;
+}
+.directionRL{
+	direction: rtl;
+}
+.directionll{
+direction: ltr;
+}
 html,
 body {
 	height: 100%;
-	font-family: 'Josefin Sans', sans-serif;
+	/* font-family: 'Josefin Sans', sans-serif; */
 	-webkit-font-smoothing: antialiased;
+	/* font-family: 'Vibes', cursive; */
+	font-family: 'El Messiri', sans-serif;
 	font-smoothing: antialiased;
 }
+.mainMenuediv{
+
+	text-align: right;
+}
+.icon-marg{
+	margin-right:55%;
+}
+
 
 h1,
 h2,
@@ -355,6 +376,7 @@ ol {
 	border: none;
 	padding: 0 19px;
 	background: #f0f0f0;
+	
 }
 
 .header-search-form button {
@@ -367,6 +389,7 @@ ol {
 	border: none;
 	cursor: pointer;
 	background-color: transparent;
+	margin-right: 85%;
 }
 
 .user-panel .up-item {
@@ -375,10 +398,12 @@ ol {
 }
 
 .user-panel .up-item i {
+	    padding-left: 10px;
 	font-size: 22px;
 }
 
 .user-panel .up-item a {
+
 	font-size: 14px;
 	color: #000;
 }
@@ -556,7 +581,7 @@ ol {
 	padding-top: 170px;
 }
 
-.hero-slider .hs-item .offer-card {
+.hero-slider .hs-item .offer-card  {
 	position: absolute;
 	right: 0;
 	top: 226px;
@@ -570,6 +595,7 @@ ol {
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 	opacity: 0;
+	
 }
 
 .hero-slider .hs-item .offer-card:after {
@@ -1002,7 +1028,9 @@ ol {
 /* ----------------
   Footer section
 ---------------------*/
-
+.footer-all{
+	direction: rtl;
+}
 .footer-section {
 	background: #282828;
 	padding-top: 60px;
@@ -1038,10 +1066,12 @@ ol {
 	list-style: none;
 	float: left;
 	margin-right: 37px;
+	
 }
 
 .footer-widget ul:last-child {
 	margin-right: 0;
+	
 }
 
 .footer-widget ul li a {
@@ -1051,6 +1081,7 @@ ol {
 	font-size: 14px;
 	color: #8f8f8f;
 	margin-bottom: 6px;
+	
 }
 
 .footer-widget ul li a:after {
@@ -1065,10 +1096,12 @@ ol {
 	-webkit-transition: all 0.2s;
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
+	/* float:right; */
 }
 
 .footer-widget ul li a:hover {
 	color: #fff;
+	
 }
 
 .footer-widget ul li a:hover:after {
@@ -1076,6 +1109,7 @@ ol {
 	height: 7px;
 	top: 6px;
 	background: #ec105a;
+
 }
 
 .fw-latest-post-widget .lp-item {
@@ -1122,6 +1156,8 @@ ol {
 	color: #f51167;
 	margin-right: 15px;
 	overflow: hidden;
+	/* direction:rtl; */
+	float: right;
 }
 
 .social-links-warp {
@@ -1983,6 +2019,7 @@ ol {
 	top: 4px;
 	border: 2px solid #e1e1e1;
 	border-radius: 40px;
+	
 }
 
 .cf-radio-btns input[type=radio] {
